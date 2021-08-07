@@ -1,0 +1,21 @@
+{
+  "include": [
+      "src/*"
+  ],
+  "exclude": [
+    "./node_modules/*"
+  ],
+  "compilerOptions": {
+      "out": "./dist/index.js",
+      "target": "es5",
+      "jsx": "react",
+      "allowSyntheticDefaultImports": true,
+      "watch": true,
+      "lib": ["es2015"],
+      "module": "amd",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true
+  }
+}
