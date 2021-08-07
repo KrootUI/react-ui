@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { IconProps, defaultProps } from '..';
+import { IconProps, defaultProps } from '../Icons';
 
 const InfoCircleIcon: React.FC<IconProps> = ({ width, height }) => {
     return (

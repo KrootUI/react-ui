@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { IconProps, defaultProps } from '..';
+import { IconProps, defaultProps } from '../Icons';
 
 const ShieldExclamationIcon: React.FC<IconProps> = ({ width, height }) => {
     return (
@@ -10,4 +10,4 @@ const ShieldExclamationIcon: React.FC<IconProps> = ({ width, height }) => {
 };
 
 ShieldExclamationIcon.defaultProps = defaultProps;
-export default ShieldExclamationIcon;
+export default ShieldExclamationIcon; 

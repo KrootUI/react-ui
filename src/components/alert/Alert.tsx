@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import { BadgeCheckIcon, CloseIcon, ExclamationTriangleIcon, InfoCircleIcon, ShieldExclamationIcon, DotsCircleHorizontalIcon } from '../icons';
+import { BadgeCheckIcon, CloseIcon, ExclamationTriangleIcon, InfoCircleIcon, ShieldExclamationIcon, DotsCircleHorizontalIcon } from '../icons/Icons'; 
 import { ThemeContext } from '../../context/ThemeContext';
 
 enum AlertIntent {
